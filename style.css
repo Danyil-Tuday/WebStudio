@@ -1,3 +1,11 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+ul,ol {
+    list-style: none;
+}
+
 .raleway {
     font-family: "Raleway", sans-serif;
     font-weight:bold;
@@ -11,10 +19,66 @@
     font-weight: 500;
 }
 .h2 {
+    /* Чим ми займаємося */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: calc(42\36);
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+
     font-family: "Roboto", sans-serif;
     font-weight: bold;
 }
 .h3{
     font-family: "Roboto", sans-serif;
     font-weight:900;
+}
+.button {
+    background-color: #2196F3;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.text-container {
+    padding-top: 30px;
+    padding-bottom: 32px;
+    background-color: white;
+}
+.img1 {
+    width: 370px;
+}
+.img2 {
+    width: 270px;
+}
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.section1 {
+    background-color: #2F303A;
+    padding-top: 190px;
+    padding-bottom: 200px;
+}
+.h1 {
+    /* Ефективні рішення для вашого бізнесу */
+width: 696px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+margin: 0 auto;
+color: #FFFFFF;
+margin-bottom: 30px;
+
 }
