@@ -9,6 +9,7 @@ ul,ol {
 .raleway {
     font-family: "Raleway", sans-serif;
     font-weight:bold;
+    margin-right: 93px;
 }
 .p {
     font-family: "Roboto", sans-serif;
@@ -28,7 +29,7 @@ font-size: 36px;
 line-height: calc(42\36);
 text-align: center;
 letter-spacing: 0.03em;
-
+margin-bottom: 50px;
 color: #212121;
 
 
@@ -48,6 +49,7 @@ color: #212121;
     padding-top: 30px;
     padding-bottom: 32px;
     background-color: white;
+    text-align: center;
 }
 .img1 {
     width: 370px;
@@ -80,5 +82,63 @@ text-transform: uppercase;
 margin: 0 auto;
 color: #FFFFFF;
 margin-bottom: 30px;
+}
+.header-list {
+    display: flex;
+    margin-right: 344px;
+}
+.header {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.header-list2 {
+    display: flex;
+    
+}
+.flex {
+    display: flex;
+}
+.header-li:not(:last-child) {
+    margin-right: 50px;
+}
+.h:hover{
+    color: #2196F3;
+    cursor: pointer;
+}
+.header-li2:not(:last-child) {
+    margin-right: 50px;
+}
+.logoweb {
+    color:#2196F3;
+}
+.h {
+/* Контакти */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 
+color: #212121;
+}
+.section-list3 {
+    display: flex;
+    justify-content: space-between;
+}
+.elm3 {
+    /* card bg */
+background: #FFFFFF;
+border-radius: 0px 0px 4px 4px;
+
+}
+.section4 {
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.p4 {
+    color: #757575;
+    margin-top: 8px;
 }
