@@ -32,7 +32,6 @@ letter-spacing: 0.03em;
 margin-bottom: 50px;
 color: #212121;
 
-
     font-family: "Roboto", sans-serif;
     font-weight: bold;
 }
@@ -44,6 +43,12 @@ color: #212121;
     background-color: #2196F3;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    display: block;
+    width: 216px;
+    height: 50px;
+    margin: 0 auto;
+    color:#FFFFFF;
+    border-radius: 4px;
 }
 .text-container {
     padding-top: 30px;
@@ -141,4 +146,49 @@ border-radius: 0px 0px 4px 4px;
 .p4 {
     color: #757575;
     margin-top: 8px;
+}
+.section-list1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section2 {
+    padding-top: 104px;
+    padding-bottom: 106px;
+}
+.section-list2 {
+    display: flex;
+    justify-content: space-between;
+}
+.section3 {
+    padding-bottom: 94px;
+}
+.p {
+    color:#757575;
+}
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.logoweb2 {
+    color:black;
+}
+.footerh3 {
+    color:#2196F3;
+    font-size: 26px;
+
+}
+.footer li {
+    padding-top: 9px;
+}
+.footer-p {
+    padding-top: 19px;
+    color:#FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.footer-span {
+    color: #FFFFFF;
+    font-size: 26px;
 }
