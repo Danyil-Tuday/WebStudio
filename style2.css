@@ -1,0 +1,155 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-weight:bold;
+    margin-right: 93px;
+}
+.header {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid gray;
+}
+.flex {
+    display: flex;
+}
+.logoweb {
+    color:#2196F3;
+}
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.logoweb2 {
+    color:black;
+}
+.header-list {
+    display: flex;
+    margin-right: 344px;
+}
+.h {
+/* Контакти */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+.header-li:not(:last-child) {
+    margin-right: 50px;
+}
+.h:hover{
+    color: #2196F3;
+    cursor: pointer;
+}
+.header-list2 {
+    display: flex;
+    
+}
+.header-li2:not(:last-child) {
+    margin-right: 50px;
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.logoweb2 {
+    color:black;
+}
+.footerh3 {
+    color:#2196F3;
+    font-size: 26px;
+
+}
+.footer li {
+    padding-top: 9px;
+}
+.footer-p {
+    padding-top: 19px;
+    color:#FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.footer-span {
+    color: #FFFFFF;
+    font-size: 26px;
+}
+.p {
+    color:#757575;
+    font-size: 14px;
+}
+
+
+.section {
+        padding-top: 94px;
+    padding-bottom: 94px;
+}
+.ul1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 34px;
+}
+.li1 {
+
+}
+.li1:not(:last-child) {
+    padding-right: 8px;
+}
+.button1 {
+    background-color: #F5F4FA;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+     text-align: center;
+    border-color: #FFFFFF;
+    color:#212121;
+    border-radius: 4px;
+    /* Веб-сайти */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+border: 1px solid #EEEEEE;
+
+}
+.button1:hover {
+    color: #EEEEEE;
+    background-color: #2196F3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.ul2 {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: repeat(3, 404px);
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+.li2 {
+    border: 1px solid #F5F4FA;
+}
