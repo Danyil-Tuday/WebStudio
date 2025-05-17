@@ -12,7 +12,8 @@ body {
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: #FFFFFF;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #F5F4FA;
+
 }
 .flex {
     display: flex;
@@ -152,4 +153,17 @@ border: 1px solid #EEEEEE;
 }
 .li2 {
     border: 1px solid #F5F4FA;
+}
+.h1 {
+    padding-left: 24px;
+    padding-bottom: 4px;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.p1 {
+    padding-left: 24px;
+    padding-bottom: 20px;
+    padding-top: 4px;
+    color: #757575;
+    font-weight: 400;
 }
