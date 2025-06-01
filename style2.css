@@ -90,7 +90,6 @@ color: #212121;
     font-size: 14px;
 }
 
-
 .section {
         padding-top: 94px;
     padding-bottom: 94px;
@@ -139,6 +138,8 @@ border: 1px solid #EEEEEE;
     border: none;
     outline: none;
     cursor: pointer;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 
 }
 
@@ -152,7 +153,13 @@ border: 1px solid #EEEEEE;
     align-content: center;
 }
 .li2 {
-    border: 1px solid #F5F4FA;
+    border: 1px solid #EEEEEE;
+
+}
+.li2:hover {
+    cursor: pointer;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
 }
 .h1 {
     padding-left: 24px;
