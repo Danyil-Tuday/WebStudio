@@ -2,6 +2,9 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
+img {
+    display: block;
+}
 ul,ol {
     list-style: none;
 }
@@ -225,7 +228,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     height: 120px;
     background-color: #F5F4FA;
     margin-bottom: 30px;
-    background-image: url(/photo/antenna\ 1.webp);
+    background-image: url("./photo/antenna\ 1.webp");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -244,4 +247,26 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 .astro::before {
     background-image: url(/photo/astronaut\ 1.webp);
     
+}
+.section-list-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+position: absolute;
+background-color: black;
+bottom: 0;
+width:100%;
+padding-bottom: 27px;
+padding-top: 27px;
+background: rgba(47, 48, 58, 0.8);
+
+}
+.elm {
+    position: relative;
 }
