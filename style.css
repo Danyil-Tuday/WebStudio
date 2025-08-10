@@ -324,3 +324,54 @@ color: #FFFFFF;
 .s .svg1 {
     fill: #FFFFFF;
 }
+.section5 {
+
+}
+.s5-h1 {
+padding-top: 94px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+margin-bottom: 50px;
+
+}
+.s5-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 94px;
+}
+.s5-li {
+    /* padding-top: 22px; */
+    /* padding-bottom: 24px; */
+    /* padding-left: 57px; */
+    /* padding-right: 59px; */
+    border: solid 1px #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s5-svg {
+    margin-top: 22px;
+    margin-bottom: 24px;
+    margin-right: 59px;
+    margin-left: 57px;
+    width: 41px;
+    height: 46px;
+    fill: #AFB1B8;
+}
+.s5-li:not(:last-child) {
+    margin-right: 30px;
+}
+.s5-li:hover .s5-svg{
+    cursor: pointer;
+    fill: #2196F3;
+    
+}
