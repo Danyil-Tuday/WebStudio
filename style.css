@@ -375,3 +375,138 @@ margin-bottom: 50px;
     fill: #2196F3;
     
 }
+.fon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00000033;
+    z-index: 1;
+    
+}
+.modal {
+width: 528px;
+height: 581px;
+background-color:#FFFFFF;
+position: absolute;
+z-index: 2;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+padding: 40px;
+}
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+.bmodal {
+    position: absolute;
+    right:8px;
+    top:8px;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: transparent;
+    border: 1px solid #0000001A;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 12px;
+color: #212121;
+
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input {
+    height: 40px;
+    width: 100%;
+    padding-left: 42px;
+    padding-right: 10px;
+}
+.input:focus {
+border: 1px solid #2196F3;
+outline:none;
+}
+
+.comment {
+    height: 120px;
+    width: 100%;
+    resize: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-top:12px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+
+color: rgba(117, 117, 117, 0.5);
+
+
+}
+.comment:focus {
+    border: 1px solid #2196F3;
+outline:none;
+}
+.msvg {
+    position: relative;
+}
+.input-svg {
+    width:12px;
+    height: 12px;
+}
+.svg-m {
+    position: absolute;
+    left:15px;
+    top:14px;
+
+}
+.agree {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+
+.input2 {
+    display: flex;
+    justify-content: end;
+
+}
+.input2:focus {
+    accent-color: #2196F3;
+}
+.terms {
+    color:#2196F3;
+    text-decoration: underline;
+}
+.divagree {
+    display: flex;
+    align-items: center;
+}

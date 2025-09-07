@@ -154,11 +154,14 @@ border-radius: 4px;
 }
 .li2 {
     border: 1px solid #EEEEEE;
-
+    position: relative;
+    transition-property: box-shadow;
+    transition-duration: 200ms;
 }
 .li2:hover {
     cursor: pointer;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
 
 }
 .h1 {
@@ -173,4 +176,27 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     padding-top: 4px;
     color: #757575;
     font-weight: 400;
+}
+.pp {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0.03em;
+background-color: #2196F3;
+color: #FFFFFF;
+padding-left: 24px;
+padding-right: 24px;
+padding-bottom: 63px;
+padding-top: 63px;
+position: absolute;
+top:0px;
+left:0px;
+opacity: 0%;
+transition-property: opacity;
+transition-duration: 200ms;
+}
+.li2:hover .pp {
+    opacity: 90%;
 }
